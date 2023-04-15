@@ -8,5 +8,5 @@ public class CmdCommands {
 mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen https://www.alexanderwatch.com/”
 
 Playwright Trace command
-mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="show-trace trace.zip"
+mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="show-trace deentrace.zip"
 */

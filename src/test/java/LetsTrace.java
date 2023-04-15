@@ -29,14 +29,12 @@ public class LetsTrace {
             page.locator("#password").click();
             page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Login")).click();
             page.locator("#menu-item-3316").getByRole(AriaRole.LINK, new Locator.GetByRoleOptions().setName("WOMEN")).click();
-            page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Subscribe")).click();
-            page.locator("#row-1482182435").getByRole(AriaRole.LINK, new Locator.GetByRoleOptions().setName("MEN").setExact(true)).click();
-            page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("ABOUT")).click();
+
 
 
             // Stop tracing and export it into a zip archive.
             context.tracing().stop(new Tracing.StopOptions()
-                    .setPath(Paths.get("trace.zip")));
+                    .setPath(Paths.get("deentrace.zip")));
 
         }
     }
