@@ -18,5 +18,6 @@ public class Openingbroswser {
             System.out.println(page.title());
             browser.close();
             playwright.close();
+            //kjbkbkjbknkn
         }
     }}
