@@ -7,7 +7,7 @@ public class multipleBrowsers {
 
     Playwright pw = Playwright.create();
 
-    {
+
        //firefox browser
         Browser browserss = pw.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
         BrowserContext b1 = browserss.newContext();
@@ -34,4 +34,4 @@ public class multipleBrowsers {
         browserb3.close();
         pw.close();
     }
-}}
+}

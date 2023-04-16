@@ -1,7 +1,7 @@
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.AriaRole;
 
-public class LetDebug {
+public class LetsDebug {
 
 
         public static void main(String[] args) {
