@@ -2,7 +2,7 @@ import com.microsoft.playwright.*;
 
 import java.util.List;
 
-public class MultipleLocators {
+public class TextLocators {
 
     public static void main(String[] args) {
 
