@@ -11,7 +11,7 @@ public class Openingbroswser {
             // flag while launching the browser. You can also use slow Mo to slow down execution. Learn more in the
         // debugging tools section.
 
-        Playwright playwright = Playwright.create(); {
+        Playwright playwright = Playwright.create();
             Browser browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(50));
             Page page = browser.newPage();
             page.navigate("https://www.alexanderwatch.com/");
@@ -20,4 +20,4 @@ public class Openingbroswser {
             playwright.close();
 
         }
-    }}
+    }
