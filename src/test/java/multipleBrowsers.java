@@ -26,8 +26,8 @@ public class multipleBrowsers {
 
         //chromium browser
 
-        Browser browsers3 = pw.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
-        BrowserContext browserb3 = browsers2.newContext();
+        Browser browserb3 = pw.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+        BrowserContext b3 = browserb3.newContext();
         Page page3 = b2.newPage();
         page3.navigate("https://www.alexanderwatch.com/");
         browserb3.close();
