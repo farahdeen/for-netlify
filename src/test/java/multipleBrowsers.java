@@ -16,7 +16,6 @@ public class multipleBrowsers {
         page.locator("text = Accept").click();
 
 
-
         //webkit browser
         Browser browsers2 = pw.webkit().launch(new BrowserType.LaunchOptions().setHeadless(false));
         BrowserContext b2 = browsers2.newContext();
