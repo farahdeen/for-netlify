@@ -6,12 +6,13 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import org.testng.annotations.Test;
-
+//extentHTMLReport only works upto version4...dependencies
 public class Reports {
 
     @Test
     public void test() {
         // create a new ExtentHtmlReporter to generate the report
+        //extentHTMLReport only works upto version 4...dependencies
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent-report.html");
 
         // create an instance of ExtentReports and attach the reporter to it
