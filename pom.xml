@@ -11,6 +11,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+
   </properties>
 
   <dependencies>
@@ -28,12 +29,23 @@
       <version>1.32.0</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+
+
+
+
     <dependency>
       <groupId>com.aventstack</groupId>
       <artifactId>extentreports</artifactId>
-      <version>5.0.9</version>
+      <version>4.0.9</version>
     </dependency>
+
+
 
 
   </dependencies>
