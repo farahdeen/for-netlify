@@ -3,24 +3,26 @@ public class CreateXpaths {
         System.out.println("xpath");
 
 
-        //So, when you use the expression //* in XPath,
-        // it will select all elements in the document, regardless of their position or hierarchy,
-        // as long as they are elements. The asterisk (*) represents a wildcard that matches any element name.
+
 
         //*[@id="tab_men's-watches"]
         //a[contains(text(),'Women']
         //input[@class='search-field mb-0']
+        //input[@class='search-field mb-0' and @value='login']
+        //a[text()='feature']
+        //parent & preceding-sibling below:
+        //a[text()='test2 test2']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
 
         /*
 https://www.softwaretestinghelp.com/xpath-writing-cheat-sheet-tutorial-examples/#1_Reverse_Lookup
 
-
+ //So, when you use the expression //* in XPath,
+        // it will select all elements in the document, regardless of their position or hierarchy,
+        // as long as they are elements. The asterisk (*) represents a wildcard that matches any element name.
 
 “//*[@id=’rcTEST’]//*[contains(text(), ‘TEST Interactive’)]/../button[2]”
 “//*[@id=’rcTEST’]//*[contains(text(), ‘TEST Interactive’)]/..//*[contains(text(), ‘Setting’)]”
 “//*[@id=’rcTEST’]//*[contains(text(), ‘TEST Interactive’)]/following-sibling::button”
-“String actualFileName = WebDriverAccess.getDriver().findElement(By.xpath(“//*”+fileName +”/tr/td[1]”)).getAttribute(“title”);”
-WebDriverAccess.getDriver().findElement(By.xpath(“//*”+fileName +”/tr/td[4]”)).click();
 “// address[@class=’ng-scope ng-isolate-scope’]//div[contains(.,Testing’) and @id=’msgTitle’]”
 “//*[@name=’myForm’]//table[@id=’tbl_ testdm’]/tbody/tr/td[6]/
 input[@value=’Open RFS’]”
